@@ -36,6 +36,6 @@
     "clean": "rm -rf lib",
     "dev": "nodemon --exec babel-node src/index.js",
     "start": "node ./lib/index.js",
-    "build": "npm run clean && node_modules/.bin/babel src --out-dir lib --copy-files --source-maps && npm run link"
+    "build": "npm run clean && node_modules/.bin/babel src --out-dir lib --copy-files --source-maps && npm link"
   }
 }
