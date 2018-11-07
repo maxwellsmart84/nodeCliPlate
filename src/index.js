@@ -2,7 +2,7 @@
 import program from 'commander';
 import figlet from 'figlet';
 
-const header = figlet.textSync('NodeCli!', { font: 'ogre', });
+const header = figlet.textSync('NodeCli!', { font: 'ogre' });
 
 program
   .version('0.1.0')
